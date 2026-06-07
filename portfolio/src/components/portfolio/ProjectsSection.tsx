@@ -10,23 +10,23 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Customer Churn Predictor',
-    description: 'ML pipeline predicting customer churn with 94% accuracy using gradient boosting. Includes feature engineering, model training, and a REST API for real-time predictions.',
-    tech: ['Python', 'Scikit-learn', 'FastAPI', 'PostgreSQL'],
+    title: 'Customs & Trade Performance Analytics',
+    description: 'Analyzes customs and trade data to identify patterns across import values, shipment flows, tax revenues, and compliance risks, surfacing insights to improve trade governance and reduce revenue leakage.',
+    tech: ['Python', 'Pandas', 'Streamlit', "Matplotlib"],
     github: '#',
     live: '#',
   },
   {
-    title: 'Real-Time Analytics Dashboard',
-    description: 'Streaming analytics platform processing 10K+ events/sec. Built with event-driven architecture and real-time visualizations for business KPIs.',
-    tech: ['Kafka', 'Node.js', 'Redis', 'React'],
+    title: 'Google Play Apps Success Prediction',
+    description: 'A machine learning pipeline that predicts app success scores using Google Play Store metadata and user review data, combining NLP-based review features with structured app attributes for improved predictive power.',
+    tech: ['Python', 'Seaborn', 'Scikit-learn', 'Matplotlib', "Tableau"],
     github: '#',
     live: '#',
   },
   {
-    title: 'NLP Sentiment Engine',
-    description: 'Deep learning model for multi-language sentiment analysis. Deployed as a microservice with automated retraining pipeline and model versioning.',
-    tech: ['TensorFlow', 'Docker', 'AWS', 'Python'],
+    title: 'MedEx: Medical-Based Expert System',
+    description: 'An AI-driven Medical Expert System designed to diagnose diseases based on the symptoms provided by the user, using an expert rule-based approach, it suggests possible diagnoses, causes, and treatments.',
+    tech: ['React', 'Experta', 'JavaScript', 'Python', "Axios", "Flask"],
     github: '#',
     live: '#',
   },
