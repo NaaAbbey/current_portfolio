@@ -7,23 +7,24 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    role: 'Senior Data Scientist',
-    company: 'TechCorp Inc.',
-    period: '2022 — Present',
-    description: 'Leading ML initiatives for product recommendations. Built end-to-end pipelines reducing data processing time by 60%. Mentoring junior data scientists.',
+    role: 'Skill Team Intern',
+    company: 'MEST Africa',
+    period: '05/2025 - 06/2025',
+    description: 'Supported the student recruitment process by reviewing applications, organizing candidate data, coordinating interviews, and tracking recruitment progress using digital tools. Developed and improved internal systems, including a student performance tracking system, a meeting room booking system, and UI enhancements for a laptop tracking web application. Participated in strategic and operational meetings involving hackathon planning, recruitment updates, and student concerns, gaining experience in project coordination and stakeholder communication.',
   },
   {
-    role: 'Backend Developer',
-    company: 'DataFlow Systems',
-    period: '2020 — 2022',
-    description: 'Designed and maintained microservices handling 1M+ daily API calls. Implemented caching strategies and optimized database queries for 3x performance improvement.',
+    role: 'Data Analyst Intern',
+    company: 'DataVerse Africa',
+    period: '07/2025 — 09/2025',
+    description: 'Recognized high dropout rates in financial inclusion initiatives for targeted interventions. Developed dashboards to monitor import volumes, taxes, and compliance metrics. Collaborated with colleagues to analyze trends and derive actionable insights.',
   },
   {
-    role: 'Data Analyst',
-    company: 'Analytics Hub',
-    period: '2018 — 2020',
-    description: 'Developed automated reporting dashboards for C-suite. Conducted A/B tests and statistical analyses driving key business decisions across marketing and product.',
+    role: 'Data Science Intern',
+    company: 'Unified Mentor Private Limited',
+    period: '03/2025 - 04/2025',
+    description: 'Developed customer satisfaction prediction model based on historical data for purchased products and responses. Built machine learning model to predict app success using datasets from Google Play Store and reviews. Analyzed datasets to identify trends and patterns, providing valuable project insights.',
   },
+
 ];
 
 const ExperienceSection = () => {

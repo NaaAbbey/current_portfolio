@@ -6,20 +6,20 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     title: 'Data Science',
-    skills: ['Python', 'R', 'TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy', 'Jupyter'],
+    skills: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'Jupyter', 'Matplotlib', 'Seaborn'],
   },
   {
     title: 'Data Analysis',
-    skills: ['SQL', 'Power BI', 'Tableau', 'Excel', 'Statistical Modeling', 'A/B Testing'],
+    skills: ['SQL', 'Tableau', 'Excel', 'Statistical Modeling', 'Data Visualization', ],
   },
   {
     title: 'Backend',
-    skills: ['Node.js', 'FastAPI', 'Django', 'PostgreSQL', 'MongoDB', 'Redis', 'Docker'],
+    skills: ['Node.js', 'FastAPI', 'Django', 'PostgreSQL', 'REST APIs'],
   },
-  {
+  /*{
     title: 'Tools & Cloud',
     skills: ['Git', 'AWS', 'GCP', 'Airflow', 'Kafka', 'CI/CD', 'Linux'],
-  },
+  } */
 ];
 
 const SkillsSection = () => {

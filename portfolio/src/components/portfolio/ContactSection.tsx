@@ -1,4 +1,5 @@
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail} from 'lucide-react';
+import { SiGithub, SiLinkerd } from "@icons-pack/react-simple-icons";
 
 const ContactSection = () => {
   return (
@@ -16,15 +17,15 @@ const ContactSection = () => {
         <div className="space-y-4">
           <div className="flex items-center gap-3">
             <Mail className="w-4 h-4 text-primary" />
-            <span className="text-foreground font-mono text-sm">alex@example.com</span>
+            <span className="text-foreground font-mono text-sm">daisy.ny.abbey@gmail.com</span>
           </div>
           <div className="flex items-center gap-3">
-            <Github className="w-4 h-4 text-primary" />
-            <span className="text-foreground font-mono text-sm">github.com/alexmorgan</span>
+            <SiGithub className="w-4 h-4 text-primary" />
+            <span className="text-foreground font-mono text-sm">github.com/NaaAbbey</span>
           </div>
           <div className="flex items-center gap-3">
-            <Linkedin className="w-4 h-4 text-primary" />
-            <span className="text-foreground font-mono text-sm">linkedin.com/in/alexmorgan</span>
+            <SiLinkerd className="w-4 h-4 text-primary" />
+            <span className="text-foreground font-mono text-sm">linkedin.com/in/daisy-a-6394a1282</span>
           </div>
         </div>
 

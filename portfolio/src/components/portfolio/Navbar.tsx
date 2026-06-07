@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Code2 className="w-5 h-5 text-primary" />
-          <span className="font-mono font-bold text-sm">AM</span>
+          <span className="font-mono font-bold text-sm">DA</span>
         </div>
 
         <div className="flex gap-6 text-sm text-muted-foreground font-mono">

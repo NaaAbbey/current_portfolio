@@ -8,34 +8,24 @@
   :root {
     --background: 220 20% 7%;
     --foreground: 210 20% 90%;
-
     --card: 220 18% 10%;
     --card-foreground: 210 20% 90%;
-
     --popover: 220 18% 10%;
     --popover-foreground: 210 20% 90%;
-
     --primary: 174 72% 52%;
     --primary-foreground: 220 20% 7%;
-
     --secondary: 220 16% 16%;
     --secondary-foreground: 210 20% 80%;
-
     --muted: 220 14% 14%;
     --muted-foreground: 215 12% 50%;
-
     --accent: 174 72% 52%;
     --accent-foreground: 220 20% 7%;
-
     --destructive: 0 72% 51%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 220 14% 18%;
     --input: 220 14% 18%;
     --ring: 174 72% 52%;
-
     --radius: 0.5rem;
-
     --sidebar-background: 220 18% 10%;
     --sidebar-foreground: 210 20% 90%;
     --sidebar-primary: 174 72% 52%;
@@ -44,16 +34,12 @@
     --sidebar-accent-foreground: 210 20% 80%;
     --sidebar-border: 220 14% 18%;
     --sidebar-ring: 174 72% 52%;
-
     --font-sans: 'Inter', system-ui, sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
-
     --glow-primary: 0 0 20px hsl(174 72% 52% / 0.15);
     --glow-primary-strong: 0 0 40px hsl(174 72% 52% / 0.25);
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
@@ -85,5 +71,4 @@
   .border-glow-strong {
     box-shadow: var(--glow-primary-strong);
   }
-
 }
